@@ -1,3 +1,36 @@
+.button-3 {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-3:hover {
+    transform: scale(1.02);
+    background-color: #333;
+}
+
+.image {
+    transition: transform 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+.heading-4,
+.heading-5 {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.heading-4:hover,
+.heading-5:hover {
+    transform: translateY(-5px);
+    color: #555;
+}
+
+
+
+
+
+
 /* styles.css */
 img {
     -webkit-user-drag: none;
